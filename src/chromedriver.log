@@ -1,0 +1,139 @@
+[1656516659.214][INFO]: Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 9515
+[1656516659.214][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1656516659.701][INFO]: [19b95fa19f1cdfe35e7dfca6a133557a] COMMAND InitSession {
+   "desiredCapabilities": {
+      "Platform": "Windows"
+   },
+   "requiredCapabilities": {
+   }
+}
+[1656516659.707][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1656516659.707][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1656516659.712][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\fbals\AppData\Local\Temp\scoped_dir7760_1751481779" data:,
+[1656516661.052][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1656516661.159][INFO]: [19b95fa19f1cdfe35e7dfca6a133557a] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})",
+      "userDataDir": "C:\\Users\\fbals\\AppData\\Local\\Temp\\scoped_dir7760_1751481779"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:62235"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows",
+   "proxy": {
+   },
+   "rotatable": false,
+   "~~~": "..."
+}
+[1656516661.161][INFO]: [19b95fa19f1cdfe35e7dfca6a133557a] COMMAND Navigate {
+   "url": "https://flex.team/auth/login"
+}
+[1656516661.161][INFO]: Waiting for pending navigations...
+[1656516661.163][INFO]: Done waiting for pending navigations. Status: ok
+[1656516661.297][INFO]: Waiting for pending navigations...
+[1656516662.960][INFO]: Done waiting for pending navigations. Status: ok
+[1656516662.960][INFO]: [19b95fa19f1cdfe35e7dfca6a133557a] RESPONSE Navigate
+[1656516662.960][INFO]: [19b95fa19f1cdfe35e7dfca6a133557a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-key=\"auth.login_flow.google_login_cta\"]"
+}
+[1656516662.960][INFO]: Waiting for pending navigations...
+[1656516662.964][INFO]: Done waiting for pending navigations. Status: ok
+[1656516662.973][INFO]: Waiting for pending navigations...
+[1656516662.973][INFO]: Done waiting for pending navigations. Status: ok
+[1656516662.973][INFO]: [19b95fa19f1cdfe35e7dfca6a133557a] RESPONSE FindElement {
+   "ELEMENT": "0.5531813812741151-1"
+}
+[1656516662.974][INFO]: [19b95fa19f1cdfe35e7dfca6a133557a] COMMAND ClickElement {
+   "id": "0.5531813812741151-1"
+}
+[1656516662.974][INFO]: Waiting for pending navigations...
+[1656516662.974][INFO]: Done waiting for pending navigations. Status: ok
+[1656516663.030][INFO]: Waiting for pending navigations...
+[1656516663.038][INFO]: Done waiting for pending navigations. Status: ok
+[1656516663.038][INFO]: [19b95fa19f1cdfe35e7dfca6a133557a] RESPONSE ClickElement
+[1656516673.089][INFO]: [19b95fa19f1cdfe35e7dfca6a133557a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-identifier$=\"@wonderwall.kr\"]"
+}
+[1656516673.090][INFO]: Waiting for pending navigations...
+[1656516673.090][INFO]: Done waiting for pending navigations. Status: ok
+[1656516673.097][INFO]: Waiting for pending navigations...
+[1656516673.098][INFO]: Done waiting for pending navigations. Status: ok
+[1656516673.098][INFO]: [19b95fa19f1cdfe35e7dfca6a133557a] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-identifier$="@wonderwall.kr"]"}
+  (Session info: chrome=103.0.5060.66)
